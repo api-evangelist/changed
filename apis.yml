@@ -1,8 +1,30 @@
 aid: changed
 name: ChangEd
-description: ChangEd is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ChangEd (Changed) is a consumer financial-technology company whose mobile app helps
+  people pay off debt faster by automatically rounding up everyday purchases to the
+  nearest dollar and directing those micro-savings toward student loans, credit cards,
+  mortgages, personal loans, and auto loans. Founded by brothers Dan Stelmach and Nick
+  Sky, the app launched in 2017, appeared on Shark Tank and took investment from Mark
+  Cuban, and is a Techstars portfolio company. It links to a user's bank account, tracks
+  spending, automates extra debt payments, supports savings goals, and visualizes payoff
+  progress for a $4/month subscription, with banking services provided by nbkc bank
+  (Member FDIC). ChangEd is a consumer mobile product and does not publish a public API,
+  developer portal, or SDK; this profile is maintained as a company record in the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/changed/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://7917815.fs1.hubspotusercontent-na1.net/hubfs/7917815/ChangEd/logos/ChangEd-Logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Debt Payoff
+- Student Loans
+- Personal Finance
+- Savings
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://gochanged.com/
+- type: Blog
+  url: https://www.gochanged.com/blog
+- type: Support
+  url: https://support.gochanged.com/hc/en-us
+- type: SignUp
+  url: https://www.gochanged.com/text-me-the-app
+- type: TermsOfService
+  url: https://www.gochanged.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.gochanged.com/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/changedapp/
+- type: DomainSecurity
+  url: security/changed-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
